@@ -101,6 +101,7 @@ def all_holidays_with_bbq(holiday_hash)
     holiday.values.each do|hol|
       if hol.include?("BBQ")
         new_array << holiday.keys
+        binding.pry
       end
     end
   end
