@@ -104,8 +104,7 @@ def all_holidays_with_bbq(holiday_hash)
         binding.pry
       end
     end
-    return new_array
   end
-
+  return new_array
 
 end
