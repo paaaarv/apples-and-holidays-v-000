@@ -89,8 +89,8 @@ def all_supplies_in_holidays(holiday_hash)
       holiday.keys.each do |hol|
         puts "#{hol.to_s.capitalize}: "
         binding.pry
-        
-      end 
+
+      end
   end
 end
 
