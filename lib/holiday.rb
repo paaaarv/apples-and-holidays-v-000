@@ -103,6 +103,7 @@ def all_holidays_with_bbq(holiday_hash)
         new_array << holiday
       end
     end
+    return new_array
   end
 
 
