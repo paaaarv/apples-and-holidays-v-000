@@ -69,7 +69,7 @@ def all_winter_holiday_supplies(holiday_hash)
       holiday.values.each do |hol|
         hol.each do |thing|
           new_array << thing
-        end 
+        end
       end
     end
   end
@@ -84,8 +84,8 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday_hash.each do |season, holiday| 
-    binding.pry 
+  holiday_hash.each do |season, holiday|
+    binding.pry
   end
 end
 
