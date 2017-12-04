@@ -67,7 +67,8 @@ def all_winter_holiday_supplies(holiday_hash)
   holiday_hash.each do |season, holiday|
     if season == :winter
       holiday.values.each do |hol|
-        new_array << hol
+
+        binding.pry
       end
     end
   end
